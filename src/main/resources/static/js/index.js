@@ -30,8 +30,6 @@ $().ready (() => {
                     console(resp)
                 }
             })
-
-
         })
         // 회원가입 버튼 누르면 /user/register로 이동.
         $('#btn-register').on('click', e => {

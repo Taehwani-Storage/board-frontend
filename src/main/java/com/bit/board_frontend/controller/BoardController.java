@@ -18,4 +18,9 @@ public class BoardController {
 
         return "/board/showAll";
     }
+
+    @GetMapping("showOne/{id}")
+    public String showOne(@PathVariable String id) {
+        return "/board/showOne";
+    }
 }

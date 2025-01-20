@@ -26,9 +26,9 @@ function addRow(data) {
     let nicknameTd = document.createElement('td')
     $(nicknameTd).text(data.nickname)
     let entryDateTd = document.createElement('td')
-    $(entryDateTd).text(data.entryDate)
+    $(entryDateTd).text(data.formattedEntryDate)
     let modifyDateTd = document.createElement('td')
-    $(modifyDateTd).text(data.modifyDate)
+    $(modifyDateTd).text(data.formattedModifyDate)
 
     tr.append(idTd)
     tr.append(titleTd)

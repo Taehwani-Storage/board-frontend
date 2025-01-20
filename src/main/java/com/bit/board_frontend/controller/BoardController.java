@@ -23,4 +23,9 @@ public class BoardController {
     public String showOne(@PathVariable String id) {
         return "/board/showOne";
     }
+
+    @GetMapping("write")
+    public String write() {
+        return "/board/write";
+    }
 }
